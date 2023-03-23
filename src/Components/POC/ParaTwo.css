@@ -1,0 +1,41 @@
+.container {
+    padding: 15px;
+}
+
+.body {
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    margin-right: 15px;
+    height: 300px;
+    justify-content: space-between
+}
+
+.single-box {
+    display: flex;
+    flex-direction: row;
+    width: 190px;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.para-text {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.image {
+    margin-right: 10px;
+}
+
+.horizontal-line {
+    height: 1px;
+    width: '100%';
+    background-color: darkgrey;
+    border: 1px solid inherit;
+}
